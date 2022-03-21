@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(to bottom, rgb(253, 240, 125), #a5e6ef, #6bd8e6);
+    font-family: sans-serif;
+}
+main {
+    background: #a5e6ef;
+}
+#menu-img {
+    display: flex;
+    justify-content: center;
+}
+#main-menu {
+    height: 30%;
+    background: #a4e4ed;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-item {
+    display: flex;
+    flex-grow: 1;
+    border: 5px;
+    border: #000000;
+    justify-content: center;
+}
+#game-window {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background: #a5e6ef;
+}
